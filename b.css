@@ -41,7 +41,7 @@ p{
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: grey;
+  background-color:#ff1f87;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   z-index: 999;
   position: sticky;
@@ -73,14 +73,14 @@ p{
 }
 #navbar li a:hover,
 #navbar li a.active{
-  color:blue;
+  color:white;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
   content: "";
   width: 30%;
   height: 2px;
-  background: blue;
+  background: #23000b;
   position: absolute;
   bottom: -4px;
   left: 20px;
